@@ -1,0 +1,251 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body{
+    width: 1920px;
+    height: 2101px;
+    background-color: #131313;
+}
+
+header{
+    display: flex;
+    width: 1720px;
+    height: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 59px;
+    margin-bottom: 90px;
+    justify-content: space-between;
+}
+
+.header-buttons{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+}
+
+.header-buttons p{
+    font-size: 18px;
+}
+
+
+.jane-cooper-body{
+    width: 800px;
+    height: 902px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.more-team-p{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+    font-size: 29px;
+    color: #EDBC5A;
+    letter-spacing: 2.5px;
+    margin-bottom: 20px;
+}
+
+.jane-cooper-body-p{
+    display: flex;
+    justify-content: space-between;
+}
+
+.jane-cooper-p{
+    font-size: 75px;
+    margin-bottom: 40px;
+    width: 100%;
+    text-align: right;
+}
+
+.jane-cooper-body .main-text{
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    color: #B0B0B0;
+    margin-bottom: 60px;
+}
+
+.emails-4-box{
+    display: flex;
+    gap: 60px;
+}
+
+.emails-2-box{
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+}
+
+.head-text-email-box{
+    font-family: none;
+    font-size: 28px;
+}
+
+.email-box{
+    width: 365px;
+    height: 178px;
+    font-family: 'Rubik', sans-serif;
+    border-bottom: 1px solid white;
+}
+
+.email-box-text{
+    color: #B0B0B0;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.contact-us{
+    display: flex;
+    width: 128px;
+    height: 39px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 46px;
+    border: none;
+    gap: 7px;
+    font-family: 'Rubik', sans-serif;
+    margin-top: 60px;
+}
+
+.contact-us span{
+    color: #141414;
+}
+
+.stats{
+    display: flex;
+    gap: 167px;
+    width: 1710px;
+    height: 178px;
+    margin-top: 140px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 140px;
+}
+
+.stat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stat-text{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.stat-text-h1{
+    font-family: none;
+    font-size: 120px;
+}
+
+footer{
+    width: 1675px;
+    height: 484px;
+    margin-left: 123px;
+    margin-right: 122px;
+    margin-bottom: 59px;
+}
+
+.footer-categories{
+    width: 1597px;
+    height: 176px;
+    display: flex;
+    margin-bottom: 79px;
+}
+
+.footer-category-1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+    margin-right: 285px;
+}
+
+.footer-category-2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 263px;
+}
+
+.footer-category-3{
+    display: flex;
+    flex-direction: column;
+    margin-right: 324px;
+}
+
+.footer-category-4{
+    display: flex;
+    flex-direction: column;
+    margin-right: 140px;
+}
+
+.footer-category-head-text{
+    font-family: none;
+    font-size: 28px;
+    margin-bottom: 28px;
+    white-space: nowrap;
+}
+
+.footer-category-box{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.footer-category-box p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.footer-category-email-box{
+    width: 304px;
+    height: 47px;
+    border-bottom: 1px solid white;
+}
+
+.send-button{
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    left: 1460px;
+    bottom: 330px;
+    width: 146px;
+    height: 146px;
+    cursor: pointer;
+}
+
+.send-button span{
+    color: #141414;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 382px;
+    height: 24px;
+    position: relative;
+    left: 1290px;
+    bottom: 200px;
+    background-color: #B0B0B0;
+    color: #141414;
+    font-family: 'Rubik', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
