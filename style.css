@@ -95,6 +95,18 @@ header{
     border-bottom: 1px solid white;
 }
 
+.socials-box-2-column{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.socials-box-column{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
 .email-box-text{
     color: #B0B0B0;
     font-size: 16px;
@@ -191,7 +203,6 @@ footer{
 }
 
 .footer-category-head-text{
-    font-family: none;
     font-size: 28px;
     margin-bottom: 28px;
     white-space: nowrap;
