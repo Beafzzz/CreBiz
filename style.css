@@ -23,6 +23,7 @@
 body{
     width: 1920px;
     height: 2101px;
+    overflow-x: hidden;
     background-color: #131313;
 }
 
